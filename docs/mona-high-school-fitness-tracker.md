@@ -230,12 +230,9 @@ WSGI_APPLICATION = "monafit_tracker.wsgi.application"
 DATABASES = {
     'default': {
         'ENGINE': 'djongo',
-        'NAME': 'octofit_db',
-        'ENFORCE_SCHEMA': False,
-        'CLIENT': {
-            'host': 'localhost',
-            'port': 27017,
-        },
+        'NAME': 'monafit_db',
+        'HOST': 'localhost',
+        'PORT': 27017,
     }
 }
 
