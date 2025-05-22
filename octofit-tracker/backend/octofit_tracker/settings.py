@@ -1,18 +1,3 @@
-# Djongo settings
-DJONGO_SETTINGS = {
-    'LOG_LEVEL': 'DEBUG',
-    'CLIENT': {
-        'host': 'localhost',
-        'port': 27017,
-        'username': '',  # Add if using auth
-        'password': '',  # Add if using auth
-        'authSource': 'admin',
-        'authMechanism': 'SCRAM-SHA-1',
-    },
-    'DATABASE': 'octofit_db',
-    'ENFORCE_SCHEMA': False,
-    'SCHEMA': None,
-}
 """
 Django settings for octofit_tracker project.
 
